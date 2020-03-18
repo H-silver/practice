@@ -33,6 +33,7 @@ body {
 .center-align {
     margin: 0 auto; 
     width: 1080px;
+    
 }
 
 header {
@@ -56,6 +57,7 @@ div#zerocho {
 }
 #header-search {
     clear: both;
+    padding-top: 20px;
 }
 
 #header-search a {
@@ -84,7 +86,7 @@ div#zerocho {
 }
 
 #header-search fieldset {
-    margin-left: 20px;
+    margin-left: 18px;
     padding-top: 12px;;
     padding-left: 10px;
     padding-bottom: 12px;
@@ -127,9 +129,15 @@ div#zerocho {
     margin: 14px;
 }
 
+nav {
+    height: 46px;
+    border-top: 1px solid #f1f3f6;
+}
+
 nav ul {
+    display:inline-block;
     margin: 0;
-    padding: 0;
+    padding: 16px 0 0 4px;
     list-style: none;
 }
 
@@ -180,4 +188,18 @@ nav li:nth-child(7) span:first-child {
     margin-top: 1px;
     width: 32px;
     background-position: -200px -182px;
+}
+
+.nav-divider {
+    display: inline-block;
+    margin: 18px 16px 0;
+    width: 1px;
+    height: 14px;
+    background: #ebeef3;
+}
+
+#serach-ranking {
+    position: absolute;
+    top: 0;
+    right: 0;
 }

@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Dotum,'돋움',Helvetica,"Apple SD Gothic Neo",sans-serif;
 }
 
 #fixed {
@@ -43,6 +44,8 @@ header {
 
 #header-top {
     float: right;
+    margin-top: 8px;
+    height: 21px;
 }
 
 #header-top span {
@@ -75,7 +78,8 @@ div#zerocho {
     text-indent: 100%;
     overflow: hidden;
     position: relative;
-    top: -6px;
+    top: -3px;
+    left: -3px;
     
 }
 
@@ -132,6 +136,7 @@ div#zerocho {
 nav {
     height: 46px;
     border-top: 1px solid #f1f3f6;
+    border-bottom: 1px solid #d1d8e4;
 }
 
 nav ul {
@@ -150,7 +155,7 @@ nav li span:first-child {
     display: inline-block;
     background-image: url(https://s.pstatic.net/static/www/img/uit/2020/sp_nav_v200110.png);
     background-repeat: no-repeat;
-    margin-left: 14px;
+    margin-left: 10px;
 }
 
 nav li:first-child span:first-child{
@@ -200,6 +205,12 @@ nav li:nth-child(7) span:first-child {
 
 #serach-ranking {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 16px;
+    right: 100px;
+}
+
+#rank-number {
+    margin-top: -9px;
+    color: #00ab33;
+    font-size: 16px;
 }
